@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Odyssée de Zazou</title>
+    <style>
+        /* Enlever marges et padding globalement */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        /* S'assurer que l'iframe occupe tout l'espace sans cadre */
+        iframe {
+            width: 100%;
+            height: auto;
+            border: none;
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* S'assurer que l'image reste responsive sans bordures */
+        .image-container {
+            width: 100%;
+            height: auto;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <a href="https://app.jsuisunjeu.com/preface/c/0/i/85214630/mode-guide-mini-jeu" target="_blank">
+            <img src="https://res.cloudinary.com/dzto2gxt9/image/upload/v1738348867/d8beaoxnu6gt0l2vwfw5.png" alt="L'Odyssée de Zazou">
+        </a>
+    </div>
+</body>
+</html>
